@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE">Mi aplicación</title>
+</head>
+<body>
+  <header layout:fragment="header">
+    <!-- Aquí iría el contenido del header común a todas las páginas -->
+  </header>
+
+  <div layout:fragment="content">
+    <!-- Este fragmento será sustituido por el contenido específico de cada página -->
+  </div>
+</body>
+</html>

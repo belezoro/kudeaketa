@@ -1,0 +1,14 @@
+.fieldset{
+	border: 1px solid black;
+}
+
+.login-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.login-content{
+	text-align: center;
+}
