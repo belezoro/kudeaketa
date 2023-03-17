@@ -32,7 +32,7 @@ public class LoginDaoImpl implements LoginDao {
 	
 	private static final String SQL_GET_USUARIOS = "SELECT * FROM USER ";
 	
-	private static final String SQL_INSERT_USUARIO = "INSERT INTO FROM USER VALUES(:username, :password)";
+	private static final String SQL_INSERT_USUARIO = "INSERT INTO USER VALUES(:username, :pass)";
 	
 	@Override
 	public User getUsuarioLogin(String username, String password) {
